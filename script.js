@@ -13,8 +13,9 @@ const openTipCalculator = () => {
 
 const tryAgain = () => {
     clickHere.innerText = "OK , You Want To Try Again ?";
-    yesButton.style.display = "none";
+
 };
 
 yesButton.addEventListener("click", openTipCalculator);
 noButton.addEventListener("click", tryAgain);
+
