@@ -32,7 +32,7 @@
   transition: 0.4s ease-in;
 }
 
-#display {
+.display {
   width: 500px;
   height: 150px;
   background-color: #000000;
