@@ -41,7 +41,7 @@
   font-size: 25px;
 }
 
-#display > p {
+.display > p {
   margin-left: 10px;
   margin-bottom: 20px;
 }
