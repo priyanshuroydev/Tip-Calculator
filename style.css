@@ -23,6 +23,7 @@
 
 .box{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -32,7 +33,34 @@
   transition: all 0.3s ease-in;
 }
 
-.box > p {
-  font-size: 26px;
+.box >p{
+  font-size: 30px;
 }
 
+.yesNoButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-top: 30px;
+}
+
+.yesNoButtons >  button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  padding: 18px 55px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition: all 0.2s ease-in;
+}
+
+button:hover{
+  background-color: #a6a6a6;
+  color: #000;
+  border: 5px solid #a6a6a6;
+}
