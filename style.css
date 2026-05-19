@@ -61,7 +61,7 @@
   transition: all 0.2s ease-in;
 }
 
-button:hover{
+.yesNoButtons > button:hover{
   background-color: #a6a6a6;
   color: #000;
   border: 5px solid #a6a6a6;
@@ -91,7 +91,7 @@ button:hover{
 
 .numbers{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns:repeat(3,1fr);
   width: 400px;
   gap: 40px;
 }
@@ -100,9 +100,25 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 110px;
   height: 20px;
   padding: 20px;
   font-size: 25px;
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #dfdfdf;
+  transition: all 0.1s ease-in ;
 }
 
+#clearBtn {
+  width: auto;
+  grid-column: span 2 ;
+}
+
+button:hover{
+  background-color: #545454;
+}
+
+button:active{
+  transform: scale(0.8);
+}
