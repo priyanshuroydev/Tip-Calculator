@@ -73,6 +73,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .display{
@@ -80,20 +82,23 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  width: 400px;
+  width: 500px;
   height: 130px;
   background-color: #4f4f4f;
+  border: 5px solid white;
 }
 
 .display > span {
+  font-size: 20px;
   margin-left: 20px;
 }
 
 .numbers{
   display: grid;
   grid-template-columns:repeat(3,1fr);
-  width: 400px;
-  gap: 40px;
+  width: 600px;
+  gap: 20px;
+  padding : 20px 0px 20px 55px ;
 }
 
 .numbers > button{
